@@ -1,0 +1,73 @@
+{
+    "products":[
+         {"id":"1",
+         "model":"Acer",
+         "image":"images/image_3.jpg",
+         "processor":"2gb DDR3",
+         "ram":"16GB SSD",
+         "harddisk":"11.6 HD IPS Screen (1366x768)",
+         "graphic":"Intel HD Graphics",
+         "os":"Google Chrome Operating System",
+        
+         "buttery":"11h",
+         "price":"20,000"
+         },
+         {"id":"2",
+         "model":"Mac",
+         "image":"images/image_1.jpg",
+         "processor":"2gb DDR3",
+         "ram":"16GB SSD",
+         "harddisk":"11.6 HD IPS Screen (1366x768)",
+         "graphic":"Intel HD Graphics",
+         "os":"Google Chrome Operating System",
+         "price":"20,000"
+         },
+         {
+         "model":"Acer",
+         "image":"images/image_3.jpg",
+         "processor":"2gb DDR3",
+         "ram":"16GB SSD",
+         "harddisk":"11.6 HD IPS Screen (1366x768)",
+         "graphic":"Intel HD Graphics",
+         "os":"Google Chrome Operating System",
+         "price":"20,000"
+         },
+
+         {"id":"4",
+         "model":"Mac",
+         "image":"images/image_1.jpg",
+         "processor":"2gb DDR3",
+         "ram":"16GB SSD",
+         "harddisk":"11.6 HD IPS Screen (1366x768)",
+         "graphic":"Intel HD Graphics",
+         "os":"Google Chrome Operating System",
+        "price":"20,000"
+         },
+
+         {"id":"5",
+         "model":"Acer",
+         "image":"images/image_3.jpg",
+         "processor":"2gb DDR3",
+         "ram":"16GB SSD",
+         "harddisk":"11.6 HD IPS Screen (1366x768)",
+         "graphic":"Intel HD Graphics",
+         "os":"Google Chrome Operating System",
+        "buttery":"11h",
+         "price":"20,000"
+         },
+
+         {"id":"6",
+         "model":"Mac",
+         "image":"images/image_1.jpg",
+         "processor":"2gb DDR3",
+         "ram":"16GB SSD",
+         "harddisk":"11.6 HD IPS Screen (1366x768)",
+         "graphic":"Intel HD Graphics",
+         "os":"Google Chrome Operating System",
+         "buttery":"11h",
+         "price":"20,000"
+         }
+
+
+        ]
+}

@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./style.css" />
+
+    <title>Question05</title>
+  </head>
+  <body>
+    <div class="container">
+      <header class="header">
+        <p class="company_logo">LOGO</p>
+        <div class="menu">
+          <button class="btn_menu">Company</button>
+          <button class="btn_menu">Services</button>
+          <button class="btn_menu">FinTech Solutions</button>
+          <button class="btn_menu">Products</button>
+          <button class="btn_menu">Portfolio</button>
+          <button class="btn_menu">Contact us</button>
+        </div>
+      </header>
+
+      <main class="main">
+        <form onsubmit="return false;">
+          <div class="main_left">
+            <div class="title">
+              <h2 class="title_menu">Contact us</h2>
+              <p>
+                Need an experienced and skilled hand with custom IT projects?
+                Fill out the form to get a free consultation.
+              </p>
+            </div>
+            <input
+              class="inputs"
+              type="text"
+              placeholder="Your Comoany Name"
+              required
+            />
+            <input
+              class="inputs"
+              type="text"
+              maxlength="20"
+              minlength="3"
+              placeholder="Nature of Bussiness"
+              required
+            />
+            <div class="address_inputs">
+              <input
+                class="inputs"
+                type="text"
+                maxlength="20"
+                minlength="3"
+                placeholder="Adress"
+                required
+              />
+              <input
+                class="inputs input_postcode"
+                type="number"
+                maxlength="20"
+                minlength="3"
+                placeholder="postcode"
+                required
+              />
+            </div>
+            <input
+              class="inputs"
+              type="text"
+              maxlength="20"
+              minlength="3"
+              placeholder="Contact name"
+              required
+            />
+            <input
+              class="inputs"
+              type="number"
+              maxlength="20"
+              minlength="3"
+              placeholder="Contact Phone"
+            />
+            <input
+              class="inputs"
+              maxlength="20"
+              minlength="3"
+              type="email"
+              placeholder="email@gmail"
+            />
+            <input
+              type="text"
+              maxlength="20"
+              minlength="3"
+              class="inputs"
+              placeholder="Linkedin"
+              required
+            />
+            <input
+              class="inputs"
+              type="text"
+              maxlength="20"
+              minlength="3"
+              placeholder="Let’s talk about your idea"
+              required
+            />
+            <div class="input_box_upload">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+                fill="none"
+              >
+                <path
+                  d="M21 15V19C21 19.5304 20.7893 20.0391 20.4142 20.4142C20.0391 20.7893 19.5304 21 19 21H5C4.46957 21 3.96086 20.7893 3.58579 20.4142C3.21071 20.0391 3 19.5304 3 19V15"
+                  stroke="#737B7D"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+                <path
+                  d="M17 8L12 3L7 8"
+                  stroke="#737B7D"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+                <path
+                  d="M12 3V15"
+                  stroke="#737B7D"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+              </svg>
+              <p>Upload Additional file</p>
+            </div>
+            <p class="Upload_text">
+              Attach file. File size of your documents should not exceed 10MB
+            </p>
+            <button id="btn_submit" class="btn_submit" type="submit">
+              Submit
+            </button>
+            <p id="valid_message"></p>
+            <div class="checkbox">
+              <input type="checkbox" />
+              <p>I want to protect my data by signing an NDA</p>
+            </div>
+          </div>
+        </form>
+
+        <div class="main_right">
+          <div class="main_right_one">
+            <h1 class="main_right_title">Offices</h1>
+            <p>
+              United States<br />
+              500 5th Avenue Suite 400, NY 10110
+            </p>
+            <p>
+              United Kingdom<br />
+              High St, Bromley BR1 1DN
+            </p>
+            <p>
+              France<br />
+              80 avenue des Terroirs de France, Paris
+            </p>
+          </div>
+          <div class="main_right_two">
+            <p>For Quick Inquiries</p>
+            <form >
+            <div class="input_box_num">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="23"
+                height="16"
+                viewBox="0 0 23 16"
+                fill="none"
+              >
+                <g clip-path="url(#clip0_0_94)">
+                  <path d="M0 0V16H23V0H0Z" fill="#012169" />
+                  <path d="M0 0L23 16L0 0ZM23 0L0 16L23 0Z" fill="#2CAA4D" />
+                  <path
+                    d="M23 0L0 16L23 0ZM0 0L23 16L0 0Z"
+                    stroke="white"
+                    stroke-width="4.6"
+                  />
+                  <path d="M0 0L23 16L0 0ZM23 0L0 16L23 0Z" fill="#2CAA4D" />
+                  <path
+                    d="M23 0L0 16L23 0ZM0 0L23 16L0 0Z"
+                    stroke="#C8102E"
+                    stroke-width="3.06667"
+                  />
+                  <path d="M11.5 0V16V0ZM0 8H23H0Z" fill="#2CAA4D" />
+                  <path
+                    d="M0 8H23H0ZM11.5 0V16V0Z"
+                    stroke="white"
+                    stroke-width="7.66667"
+                  />
+                  <path d="M11.5 0V16V0ZM0 8H23H0Z" fill="#2CAA4D" />
+                  <path
+                    d="M0 8H23H0ZM11.5 0V16V0Z"
+                    stroke="#C8102E"
+                    stroke-width="4.6"
+                  />
+                </g>
+                <defs>
+                  <clipPath id="clip0_0_94">
+                    <rect width="23" height="16" fill="white" />
+                  </clipPath>
+                </defs>
+              </svg>
+              <input
+                class="inputs"
+                type="number"
+                maxlength="20"
+                minlength="3"
+                placeholder="+44 7777777777"
+                required
+              />
+            </div>
+            <div class="input_box_num">
+              <svg
+                width="40px"
+                height="20px"
+                xmlns="http://www.w3.org/2000/svg"
+                id="flag-icons-um"
+                viewBox="0 0 640 480"
+              >
+                <path fill="#bd3d44" d="M0 0h640v480H0" />
+                <path
+                  stroke="#fff"
+                  stroke-width="37"
+                  d="M0 55.3h640M0 129h640M0 203h640M0 277h640M0 351h640M0 425h640"
+                />
+                <path fill="#192f5d" d="M0 0h364.8v258.5H0" />
+                <marker id="um-a" markerHeight="30" markerWidth="30">
+                  <path fill="#fff" d="m14 0 9 27L0 10h28L5 27z" />
+                </marker>
+                <path
+                  fill="none"
+                  marker-mid="url(#um-a)"
+                  d="m0 0 16 11h61 61 61 61 60L47 37h61 61 60 61L16 63h61 61 61 61 60L47 89h61 61 60 61L16 115h61 61 61 61 60L47 141h61 61 60 61L16 166h61 61 61 61 60L47 192h61 61 60 61L16 218h61 61 61 61 60L0 0"
+                />
+              </svg>
+              <input
+                class="inputs"
+                type="number"
+                maxlength="20"
+                minlength="3"
+                placeholder="+1 3333333330"
+                required
+              />
+            </div>
+            <div class="main_right_three">
+              <p>Would you like to join our newsletter?</p>
+              <div class="main_right_three_box_email">
+                <input class="inputs" placeholder="Email" />
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="19"
+                  height="18"
+                  viewBox="0 0 19 18"
+                  fill="none"
+                >
+                  <path
+                    d="M15.5 4.5L7.25 12.75L3.5 9"
+                    stroke="white"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                </svg>
+                
+              </div>
+            </div>
+          </div>
+        </div>
+      </main>
+    </div>
+    <script src="./app.js"></script>
+  </body>
+</html>

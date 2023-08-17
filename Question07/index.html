@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <title>Question07</title>
+  </head>
+
+  <body>
+    <main class="main">
+      <div class="video_wrapper">
+       
+        <video class="video_source" controls width="100%" height="360">
+          <source src="./images/video.mp4" type="video/mp4" />
+          Your browser does not support the video tag.
+        </video>
+      </div>
+      <article class="article">
+        <section class="filter">
+          <ul class="filterUl">
+            <li class="filter_item">
+              <label for="model">Lap Top Model:</label>
+              <select name="select" class="select" id="model">
+                <option value="Nothing Selected" selected disabled>
+                  Nothing Selected
+                </option>
+                <option value="option-1">option-1</option>
+                <option value="option-2">option-2</option>
+                <option value="option-3">option-3</option>
+              </select>
+              </div>
+            </li>
+            <li class="filter_item">
+              <label for="processor">Processor:</label>
+              <select name="select" class="select" id="processor">
+                <option value="Nothing Selected" selected>
+                  Nothing Selected
+                </option>
+                <option value="option-1">option-1</option>
+                <option value="option-2">option-2</option>
+                <option value="option-3">option-3</option>
+              </select>
+              
+              </div>
+            </li>
+            <li class="filter_item">
+              <label for="ram">RAM:</label>
+              <select name="select" class="select" id="ram">
+                <option value="Nothing Selected" selected disabled>
+                  Nothing Selected
+                </option>
+                <option value="option-1">option-1</option>
+                <option value="option-2">option-2</option>
+                <option value="option-3">option-3</option>
+              </select>
+              
+            </li>
+            <li class="filter_item">
+              <label for="hard-disc">Hard disc:</label>
+              <select name="select" class="select" id="hard-disc">
+                <option value="Nothing Selected" selected disabled>
+                  Nothing Selected
+                </option>
+                <option value="option-1">option-1</option>
+                <option value="option-2">option-2</option>
+                <option value="option-3">option-3</option>
+              </select>
+              
+              </div>
+            </li>
+            <li class="filter_item">
+              <label for="display">Display:</label>
+              <select name="select" class="select" id="display">
+                <option value="Nothing Selected" selected disabled>
+                  Nothing Selected
+                </option>
+                <option value="option-1">option-1</option>
+                <option value="option-2">option-2</option>
+                <option value="option-3">option-3</option>
+              </select>
+              
+              </div>
+            </li>
+          </ul>
+        </section>
+        <section class="products">
+          <table class="productTable">
+            <tr class="productHeader">
+              <td class="items">Laptop model</td>
+              <td class="items">Picture</td>
+              <td class="items">Processor</td>
+              <td class="items">Ram</td>
+              <td class="items">Graphics</td>
+              <td class="items">OS</td>
+              <td class="items">Weight</td>
+              <td class="items">Price</td>
+          </table>
+        </section>
+      </article>
+    </main>
+    <script type="module" src="script.js"></script>
+  </body>
+</html>
